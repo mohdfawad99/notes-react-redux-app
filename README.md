@@ -1,4 +1,6 @@
-# [Basic Notes App using ReactJS and Redux](https://mohdfawad99.github.io/notes-react-redux-app/)
+# [Notes App using ReactJS and Redux](https://mohdfawad99.github.io/notes-react-redux-app/)
+
+This is a basic notes app developed using ReactJS and Redux with local storage of data and dark mode feature
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
