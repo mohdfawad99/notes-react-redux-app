@@ -5,22 +5,22 @@ const initialState = {
         {
             id: nanoid(),
             text: "This is my first note!",
-            date: "15/02/2022",
+            date: "2/15/2022",
         },
         {
             id: nanoid(),
             text: "This is my second note!",
-            date: "16/02/2022",
+            date: "2/16/2022",
         },
         {
             id: nanoid(),
             text: "This is my third note!",
-            date: "17/02/2022",
+            date: "2/17/2022",
         },
         {
             id: nanoid(),
             text: "This is my fourth note!",
-            date: "18/02/2022",
+            date: "2/18/2022",
         },
     ],
     searchText: '',
