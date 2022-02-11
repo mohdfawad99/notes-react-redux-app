@@ -1,36 +1,6 @@
 import { nanoid } from 'nanoid'
 
-const initialState = {
-    notes: [
-        {
-            id: nanoid(),
-            text: "This is my first note!",
-            date: "2/15/2022",
-        },
-        {
-            id: nanoid(),
-            text: "This is my second note!",
-            date: "2/16/2022",
-        },
-        {
-            id: nanoid(),
-            text: "This is my third note!",
-            date: "2/17/2022",
-        },
-        {
-            id: nanoid(),
-            text: "This is my fourth note!",
-            date: "2/18/2022",
-        },
-    ],
-    searchText: '',
-    toggleDarkMode: false
-    
-}
-
-
-
-const notesReducer = (state = initialState, action) => {
+const notesReducer = (state, action) => {
     switch(action.type) {
         case "ADD_NOTE":
             const date = new Date()
